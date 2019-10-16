@@ -14,6 +14,7 @@ int main() {
     cantidadGalonProduccion = (litrosProduccion / 3.785);
     ganancia = precioGalon*cantidadGalonProduccion;
 
+    cout<<"Hola mundo"<<endl;
     cout<<"Tu ganancia total es: "<<ganancia<<endl;
 
     return 0;
