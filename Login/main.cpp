@@ -9,7 +9,12 @@ int main() {
     string usuarioEntrada;
     string contraEntrada;
 
-    if (usuarioEntrada == usuario & contraEntrada == contra){
+    cout<<"Ingresa el usuario: ";//Insercción de datos
+    cin>>usuarioEntrada;
+    cout<<"Ingresa la contra: ";
+    cin>>contraEntrada;
+
+    if (usuarioEntrada == usuario & contraEntrada == contra){//Verificador
         cout<<"Bienvenido Kevin"<<endl;
     }else{
         cout<<"Error, usuario invalido"<<endl;
