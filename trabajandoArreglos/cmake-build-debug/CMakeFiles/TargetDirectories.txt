@@ -1,0 +1,3 @@
+C:/Users/ahira/Desktop/codigosProgramacionEstructurada/trabajandoArreglos/cmake-build-debug/CMakeFiles/trabajandoArreglos.dir
+C:/Users/ahira/Desktop/codigosProgramacionEstructurada/trabajandoArreglos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ahira/Desktop/codigosProgramacionEstructurada/trabajandoArreglos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

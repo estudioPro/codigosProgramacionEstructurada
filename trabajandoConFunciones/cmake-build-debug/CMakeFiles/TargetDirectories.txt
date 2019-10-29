@@ -1,0 +1,3 @@
+C:/Users/ahira/Desktop/codigosProgramacionEstructurada/trabajandoConFunciones/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ahira/Desktop/codigosProgramacionEstructurada/trabajandoConFunciones/cmake-build-debug/CMakeFiles/trabajandoConFunciones.dir
+C:/Users/ahira/Desktop/codigosProgramacionEstructurada/trabajandoConFunciones/cmake-build-debug/CMakeFiles/edit_cache.dir
