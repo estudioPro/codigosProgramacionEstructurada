@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ahira\Desktop\codigosProgramacionEstructurada\Objetos
+CMAKE_SOURCE_DIR = C:\Users\ahira\Desktop\CodePracticeCPlus\ProyectosC++\Examen30102019
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ahira\Desktop\codigosProgramacionEstructurada\Objetos\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ahira\Desktop\CodePracticeCPlus\ProyectosC++\Examen30102019\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ahira\Desktop\codigosProgramacionEstructurada\Objetos\cmake-build-debug\CMakeFiles C:\Users\ahira\Desktop\codigosProgramacionEstructurada\Objetos\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ahira\Desktop\CodePracticeCPlus\ProyectosC++\Examen30102019\cmake-build-debug\CMakeFiles C:\Users\ahira\Desktop\CodePracticeCPlus\ProyectosC++\Examen30102019\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ahira\Desktop\codigosProgramacionEstructurada\Objetos\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ahira\Desktop\CodePracticeCPlus\ProyectosC++\Examen30102019\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Objetos
+# Target rules for targets named Examen30102019
 
 # Build rule for target.
-Objetos: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Objetos
-.PHONY : Objetos
+Examen30102019: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Examen30102019
+.PHONY : Examen30102019
 
 # fast build rule for target.
-Objetos/fast:
-	$(MAKE) -f CMakeFiles\Objetos.dir\build.make CMakeFiles/Objetos.dir/build
-.PHONY : Objetos/fast
+Examen30102019/fast:
+	$(MAKE) -f CMakeFiles\Examen30102019.dir\build.make CMakeFiles/Examen30102019.dir/build
+.PHONY : Examen30102019/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Objetos.dir\build.make CMakeFiles/Objetos.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Examen30102019.dir\build.make CMakeFiles/Examen30102019.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Objetos.dir\build.make CMakeFiles/Objetos.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Examen30102019.dir\build.make CMakeFiles/Examen30102019.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Objetos.dir\build.make CMakeFiles/Objetos.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Examen30102019.dir\build.make CMakeFiles/Examen30102019.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,9 +155,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... Objetos
+	@echo ... Examen30102019
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

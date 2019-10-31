@@ -1,0 +1,3 @@
+C:/Users/ahira/Desktop/CodePracticeCPlus/ProyectosC++/Examen30102019/cmake-build-debug/CMakeFiles/Examen30102019.dir
+C:/Users/ahira/Desktop/CodePracticeCPlus/ProyectosC++/Examen30102019/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ahira/Desktop/CodePracticeCPlus/ProyectosC++/Examen30102019/cmake-build-debug/CMakeFiles/rebuild_cache.dir
