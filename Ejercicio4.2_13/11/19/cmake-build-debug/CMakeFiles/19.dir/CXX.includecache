@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ahira/Desktop/GitHub/codigosProgramacionEstructurada/Ejercicio4.2_13/11/19/main.cpp
+iostream
+-
+
